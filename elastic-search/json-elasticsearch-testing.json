@@ -1,0 +1,99 @@
+SAMPLE JSON FOR TESTING API'S
+
+POST employees/_bulk
+{ "index": { "_id": "1" } }
+{ "first_name": "John", "last_name": "Doe", "job_title": "Sales Representative", "department": "Sales", "salary": 50000, "is_manager": false, "hire_date": "2021-01-01" }
+{ "index": { "_id": "2" } }
+{ "first_name": "Jane", "last_name": "Doe", "job_title": "Marketing Manager", "department": "Marketing", "salary": 80000, "is_manager": true, "hire_date": "2020-06-01" }
+{ "index": { "_id": "3" } }
+{ "first_name": "Bob", "last_name": "Smith", "job_title": "Software Engineer", "department": "Engineering", "salary": 75000, "is_manager": false, "hire_date": "2019-03-01" }
+{ "index": { "_id": "4" } }
+{ "first_name": "Michael", "last_name": "Johnson", "job_title": "Sales Representative", "department": "Sales", "salary": 55000, "is_manager": false, "hire_date": "2020-01-01" }
+{ "index": { "_id": "5" } }
+{ "first_name": "Samantha", "last_name": "Brown", "job_title": "Marketing Specialist", "department": "Marketing", "salary": 60000, "is_manager": false, "hire_date": "2018-09-01" }
+{ "index": { "_id": "6" } }
+{ "first_name": "David", "last_name": "Lee", "job_title": "Senior Software Engineer", "department": "Engineering", "salary": 90000, "is_manager": false, "hire_date": "2017-05-01" }
+{ "index": { "_id": "7" } }
+{ "first_name": "Emily", "last_name": "Davis", "job_title": "Sales Representative", "department": "Sales", "salary": 52000, "is_manager": false, "hire_date": "2020-02-01" }
+{ "index": { "_id": "8" } }
+{ "first_name": "Alex", "last_name": "Smith", "job_title": "Marketing Manager", "department": "Marketing", "salary": 85000, "is_manager": true, "hire_date": "2019-01-01" }
+{ "index": { "_id": "9" } }
+{ "first_name": "Jack", "last_name": "Wilson", "job_title": "Software Engineer", "department": "Engineering", "salary": 70000, "is_manager": false, "hire_date": "2018-02-01" }
+{ "index": { "_id": "10" } }
+{ "first_name": "Amanda", "last_name": "Thompson", "job_title": "Sales Manager", "department": "Sales", "salary": 100000, "is_manager": true, "hire_date": "2019-06-01" }
+{ "index": { "_id": "11" } }
+{ "first_name": "Eric", "last_name": "Johnson", "job_title": "Marketing Specialist", "department": "Marketing", "salary": 65000, "is_manager":true,"hire_date": "2022-05-05"}
+{ "index": { "_id": "12" } }
+{ "first_name": "Catherine", "last_name": "Lee", "job_title": "Marketing Coordinator", "department": "Marketing", "salary": 55000, "is_manager": false, "hire_date": "2021-02-15" }
+{ "index": { "_id": "13" } }
+{ "first_name": "Mike", "last_name": "Jones", "job_title": "Software Developer", "department": "Engineering", "salary": 80000, "is_manager": false, "hire_date": "2020-08-15" }
+{ "index": { "_id": "14" } }
+{ "first_name": "Sarah", "last_name": "Kim", "job_title": "Sales Manager", "department": "Sales", "salary": 90000, "is_manager": true, "hire_date": "2018-03-01" }
+{ "index": { "_id": "15" } }
+{ "first_name": "Tom", "last_name": "Smith", "job_title": "Marketing Director", "department": "Marketing", "salary": 120000, "is_manager": true, "hire_date": "2017-05-15" }
+
+
+
+
+
+2nd Part
+{
+  "id": "1",
+  "name": "Alice Smith",
+  "department": "Sales",
+  "salary": 50000.0
+},
+{
+"id": "2",
+"name": "Bob Jones",
+"department": "Marketing",
+"salary": 45000.0
+},
+{
+"id": "3",
+"name": "Charlie Brown",
+"department": "IT",
+"salary": 60000.0
+},
+{
+"id": "5",
+"name": "Eve Green",
+"department": "HR",
+"salary": 40000.0
+}
+
+
+
+
+
+3rd Part
+
+
+{
+"id": "P002",
+"name": "Headphones",
+"description": "A pair of wireless noise-canceling headphones with a long battery life and a built-in microphone.",
+"price": 149.99,
+"category": "Electronics"
+},
+{
+"id": "P003",
+"name": "Coffee Maker",
+"description": "A programmable coffee maker that can brew up to 12 cups of coffee and has a timer and a pause feature.",
+"price": 79.99,
+"category": "Kitchen"
+},
+{
+"id": "P004",
+"name": "Sweater",
+"description": "A cozy and warm sweater made of 100% wool and available in different colors and sizes.",
+"price": 49.99,
+"category": "Clothing"
+},
+{
+"id": "P005",
+"name": "Book",
+"description": "A bestselling novel by a famous author that tells an engaging story of love and adventure.",
+"price": 19.99,
+"category": "Books"
+}
